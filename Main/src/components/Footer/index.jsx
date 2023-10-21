@@ -3,7 +3,7 @@
 const Footer = () => {
     return(
         <footer>
-            <p> The is a footer 2023 </p>
+            <p> This is a footer 2023 </p>
         </footer>
     )
 }
