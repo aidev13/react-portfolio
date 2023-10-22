@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import './nav.css'
 
 const Nav = () => {
@@ -6,14 +7,16 @@ const Nav = () => {
     <>
       <nav>
         <div>
+          <div id='navBox'></div>
           <img src='./public/ode.png' id="logo" />
         </div>
+
         <div>
-          <a href="#"> Home </a>
-          <a href="#"> About Me </a>
-          <a href="#"> Portfolio </a>
-          <a href="#"> Contact </a>
-          <a href="#"> Resume </a>
+          <Link to="/"> Home </Link>
+          <Link to="/about"> About Me </Link>
+          <Link to="/portfolio"> Portfolio </Link>
+          <Link to="/contact"> Contact </Link>
+          <Link to="/resume"> Resume </Link>
         </div>
 
       </nav>

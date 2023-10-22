@@ -1,12 +1,8 @@
 import "./header.css"
 
-const Header = props => {
+const Header = () => {
     return (
-        <>
-            <div id="container">
-                <h1>{props.children}</h1>
-            </div>
-        </>
+        <h1 className="header1"></h1>
     )
 }
 

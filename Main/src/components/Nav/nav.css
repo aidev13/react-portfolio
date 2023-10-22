@@ -1,22 +1,42 @@
-* {
-    margin: 2px;
+:root {
+    margin: 0;
+    --navColor: rgb(255, 217, 0);
+    --navBoxShadow: rgba(22, 24, 26, 0.267) 0px 10px 10px -10px;
+    --navUnderlineColor: rgb(116, 116, 116);
+    --navHoverColor: rgb(255, 67, 255);
 }
 
 nav {
-    background-color: rgba(0, 80, 252, 0.308);
-    border-radius: 5px 5px 5px 18px;
-    padding: 5px;
+    background-color: var(--navColor);
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: visible;
+    border-bottom: solid var(--navUnderlineColor) 3px;
+    
 
 }
 
 nav:hover {
-    background-color: rgba(25, 0, 255, 0.486);
+    background-color: var(--navHoverColor);
     transition: 400ms;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    border-radius: 18px 18px 18px 18px;
+    box-shadow: var(--navBoxShadow);
+}
+
+nav:hover #logo {
+    transform: scale(1.25);
+    transition: 400ms;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, 
+    rgba(240, 46, 170, 0.3) -10px 10px, 
+    rgba(240, 46, 170, 0.2) -15px 15px, 
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+nav:hover #navBox {
+    background-color: var(--navHoverColor);
+    transition: 400ms;
+    box-shadow: var(--navBoxShadow);
 }
 
 nav a {
@@ -31,16 +51,26 @@ nav a:hover {
 }
 
 nav a:active {
-    color: aliceblue;
+    color: rgb(15, 133, 236);
 }
 
 #logo {
-    width: 100px;
+    position: absolute;
+    width: 150px;
     display: flex;
     justify-content: flex-start;
+    top: 12px;
+    left: 75px;
 }
 
-#logo:hover {
-    transform: scale(1.2);
-    transition: 400ms;
+#navBox {
+    margin-left: -15px;
+    background-color: var(--navColor);
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 0px 0px 50px 18px;
+    border-bottom: solid var(--navUnderlineColor) 3px;
 }
