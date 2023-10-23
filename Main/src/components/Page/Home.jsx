@@ -4,7 +4,7 @@
 const Home = () => {
     return(
         <>
-        <h2>Home</h2>
+        <h2 className="mt-4 jus">Home</h2>
         </>
     )
 }

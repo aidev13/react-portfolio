@@ -13,3 +13,7 @@
     align-items: center;
 }
 
+.footerbg {
+    background-color: rgb(255, 217, 0);
+    border-top: solid 3px rgb(143, 143, 143);
+}

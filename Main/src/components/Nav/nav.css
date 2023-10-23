@@ -19,7 +19,7 @@ nav {
 }
 
 nav:hover {
-    background-color: var(--navHoverColor);
+    
     transition: 400ms;
     box-shadow: var(--navBoxShadow);
 }
@@ -27,14 +27,14 @@ nav:hover {
 nav:hover #logo {
     transform: scale(1.25);
     transition: 400ms;
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, 
-    rgba(240, 46, 170, 0.3) -10px 10px, 
-    rgba(240, 46, 170, 0.2) -15px 15px, 
-    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    box-shadow: rgba(117, 117, 117, 0.486) -5px 5px, 
+    rgba(90, 90, 90, 0.3) -10px 10px, 
+    rgba(68, 68, 68, 0.2) -15px 15px, 
+    rgba(53, 53, 53, 0.1) -20px 20px, rgba(14, 14, 14, 0.05) -25px 25px;
 }
 
 nav:hover #navBox {
-    background-color: var(--navHoverColor);
+    
     transition: 400ms;
     box-shadow: var(--navBoxShadow);
 }
