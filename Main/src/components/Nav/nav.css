@@ -3,7 +3,7 @@
     --navColor: rgb(255, 217, 0);
     --navBoxShadow: rgba(22, 24, 26, 0.267) 0px 10px 10px -10px;
     --navUnderlineColor: rgb(116, 116, 116);
-    --navHoverColor: rgb(255, 67, 255);
+    --navHoverColor: rgb(255, 0, 191);
 }
 
 nav {
