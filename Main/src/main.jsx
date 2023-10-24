@@ -12,6 +12,7 @@ import Resume from "./components/Page/Resume";
 import './custom-styles.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+
 const router = createBrowserRouter([
   {
     path: '/',

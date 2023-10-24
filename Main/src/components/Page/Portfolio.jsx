@@ -1,10 +1,10 @@
 
-
+import Header from "../Header";
 
 const Portfolio = () => {
     return(
         <>
-        <h2>Portfolio</h2>
+        <Header title='Portfolio' />
         </>
     )
 }

@@ -1,8 +1,8 @@
 import "./header.css"
 
-const Header = () => {
+const Header = ({title}) => {
     return (
-        <h1 className="header1"></h1>
+        <h1 className="header1 d-flex justify-content-center">{title}</h1>
     )
 }
 

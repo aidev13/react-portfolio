@@ -8,7 +8,7 @@ const Nav = () => {
       <nav>
         <div>
           <div id='navBox'></div>
-          <img src='./public/ode.png' id="logo" />
+          <img src='./ode.png' id="logo" />
         </div>
 
         <div>

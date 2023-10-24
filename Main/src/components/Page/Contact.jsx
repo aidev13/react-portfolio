@@ -1,10 +1,10 @@
 
-
+import Header from "../Header";
 
 const Contact = () => {
     return(
         <>
-        <h2>Contact</h2>
+         <Header title='Home' />
         </>
     )
 }

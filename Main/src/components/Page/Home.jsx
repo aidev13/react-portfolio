@@ -1,10 +1,10 @@
 
-
+import Header from "../Header";
 
 const Home = () => {
     return(
         <>
-        <h2 className="mt-4 jus">Home</h2>
+        <Header title='Home' />
         </>
     )
 }
