@@ -4,7 +4,7 @@ import Header from "../Header";
 const Contact = () => {
     return(
         <>
-         <Header title='Home' />
+         <Header title='Contact Me' />
         </>
     )
 }

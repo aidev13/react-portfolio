@@ -2,9 +2,10 @@
 import Header from "../Header";
 
 const Home = () => {
-    return(
+    return (
         <>
-        <Header title='Home' />
+            <Header title='Home' />
+            <div></div>
         </>
     )
 }
