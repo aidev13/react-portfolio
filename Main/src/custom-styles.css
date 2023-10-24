@@ -3,11 +3,11 @@
 }
 
 .hero {
-    background-image: url("../public/aboutbg.png"), linear-gradient(rgba(253, 253, 253, 0.253),rgba(0, 0, 0, 0.466));
+    background-image: url("../aboutbg.png"), linear-gradient(rgba(253, 253, 253, 0.253),rgba(0, 0, 0, 0.466));
     background-blend-mode: overlay;
     background-size: calc();
     background-position: center;
-    height: 400px;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,4 +16,8 @@
 .footerbg {
     background-color: rgb(255, 217, 0);
     border-top: solid 3px rgb(143, 143, 143);
+}
+
+.viewPoint {
+    height: 95vh;
 }
