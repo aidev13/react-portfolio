@@ -3,7 +3,7 @@
 }
 
 .hero {
-    background-image: url("../aboutbg.png"), linear-gradient(rgba(253, 253, 253, 0.253),rgba(0, 0, 0, 0.466));
+    background-image: url("../aboutbg.png"), linear-gradient(rgba(253, 253, 253, 0.253),rgba(202, 202, 202, 0.897));
     background-blend-mode: overlay;
     background-size: calc();
     background-position: center;
@@ -13,6 +13,16 @@
     align-items: center;
 }
 
+.homeBG {
+  background-image: url("../public/homeBG.jpg"), linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.658));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
 .footerbg {
     background-color: rgb(255, 217, 0);
     border-top: solid 3px rgb(116, 116, 116);
@@ -20,4 +30,16 @@
 
 .viewPoint {
     height: 100vh;
+}
+
+
+/* Code Box Code */
+.snippetBorder {
+  border: rgb(255, 255, 255) solid 2px;
+  border-radius: 15px;
+}
+
+.snippetBG {
+  background-color: rgb(41, 41, 41);
+  border-radius: 12px;
 }
