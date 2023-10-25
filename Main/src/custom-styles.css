@@ -7,7 +7,7 @@
     background-blend-mode: overlay;
     background-size: calc();
     background-position: center;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,5 +19,5 @@
 }
 
 .viewPoint {
-    height: 95vh;
+    height: 100vh;
 }

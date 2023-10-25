@@ -16,7 +16,7 @@ const Footer = () => {
                     </svg></Link>
                 </footer>
                 <div className='d-flex justify-content-center'>
-                    <p>Code Dave by David Liebherr &copy; 2023</p>
+                    <p>Code Dave by David Liebherr &copy; {new Date().getFullYear()}</p>
                 </div>
             </div>
         </>

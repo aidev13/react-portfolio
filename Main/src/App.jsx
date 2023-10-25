@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <>
-      <div>
+      <div className="viewPoint">
         <Nav/>
         <Outlet />
         <Footer />
