@@ -1,9 +1,19 @@
 
 import Header from "../Header";
-
+import { useEffect } from "react"
 
 
 const Home = () => {
+
+  useEffect(() => {
+    const hash = window.location.hash
+    if(hash) {
+      const id = hash.slice(1)
+      document.getElementById(id)?.scrollIntoView()
+console.log(document.getElementById(id))
+
+    }
+  }, [])
 
   const cssCode = '.css {\n color: red; \n}';
   const cssRed = {
