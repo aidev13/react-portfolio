@@ -36,13 +36,13 @@ const Home = () => {
             <p className="pt-3 text-center text-light">Displayed below is a comprehensive list of skills I've honed and developed throughout my coding adventure, accompanied by some concise sample code snippets. This website serves as an experimental platform to showcase my abilities.</p>
           </div>
 
-          <div className="text-center text-light ">
+          <div className="text-light">
 
             <div className="row ">
               <div className="col-md-3 d-flex justify-content-center fs-4">
                 Program Language
               </div>
-              <div className="col col-lg-2 border d-flex align-items-center justify-content-center rounded-start">
+              <div className="col col-lg-2 border d-flex align-items-center justify-content-center rounded-start-4">
                 HTML5
               </div>
               <div className="col border p-3 ">
@@ -61,7 +61,7 @@ const Home = () => {
             <div className="row mt-4">
               <div className="col-md-3 d-flex align-items-center justify-content-center fs-4">
               </div>
-              <div className="col col-lg-2 border d-flex align-items-center justify-content-center">
+              <div className="col col-lg-2 border d-flex align-items-center justify-content-center rounded-start-4">
                 <span style={cssRed}>CSS</span>
               </div>
               <div className="col border p-3 ">
@@ -80,7 +80,7 @@ const Home = () => {
             <div className="row mt-4">
               <div className="col-md-3 d-flex align-items-center justify-content-center fs-4">
               </div>
-              <div className="col col-lg-2 border d-flex align-items-center justify-content-center">
+              <div className="col col-lg-2 border d-flex align-items-center justify-content-center rounded-start-4">
                 <span>JavaScript</span>
               </div>
               <div className="col border p-3 ">
