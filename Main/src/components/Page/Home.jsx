@@ -96,19 +96,13 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="mt-5">
-              <div className="vstack text-center" id="contact">
-                <p>David Liebherr</p>
-                <p>Email: ambition.aidev@gmail.com</p>
-                <p>Phone: 262-409-3767</p>
-              </div>
-            </div>
+
+
 
           </div>
         </div>
-
-
       </div>
+
     </>
   )
 }
