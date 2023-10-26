@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import Home from "./components/Page/Home";
-import About from "./components/Page/About";
-import Portfolio from "./components/Page/Portfolio";
-import Contact from "./components/Page/Contact";
-import Resume from "./components/Page/Resume";
+import Home from "./components/Page/Home.jsx";
+import About from "./components/Page/About.jsx";
+import Portfolio from "./components/Page/Portfolio.jsx";
+import Contact from "./components/Page/Contact.jsx";
+import Resume from "./components/Page/Resume.jsx";
 
 import './custom-styles.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
