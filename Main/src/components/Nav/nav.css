@@ -35,13 +35,12 @@ nav:hover #logo {
 }
 
 nav:hover #navBox {
-    
     transition: 400ms;
     box-shadow: var(--navBoxShadow);
 }
 
 nav a {
-    color: black;
+    color: rgb(129, 129, 129);
     text-decoration: none;
     font-size: 20px;
     margin-right: 13px;
@@ -51,9 +50,6 @@ nav a:hover {
     color:rgb(255, 255, 255)
 }
 
-nav a:active {
-    color: rgb(15, 133, 236);
-}
 
 #logo {
     position: absolute;

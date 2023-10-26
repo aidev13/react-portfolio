@@ -3,7 +3,7 @@
 const About = () => {
     return (
         <>
-            <div className="viewPoint">
+            <div>
                 <div className="hero">
                     <div class="container text-center font-monospace">
                         <div class="row">

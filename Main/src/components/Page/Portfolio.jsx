@@ -7,44 +7,41 @@ const Portfolio = () => {
             <Header title='Portfolio' />
             <div className="viewPoint">
                 <div className="m-5 d-flex justify-content-center gap-5 ">
-                    <div className="card" style={{ width: '18rem' }}>
-                        <img src="..." className="card-img-top" alt="..." />
+                    <div className="card" style={{ width: '25rem' }}>
+                        <img src='./images/travel-assistance.png' className="card-img-top" alt="Personal Travel Assistance" />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <h5 className="card-title">Travel Guide</h5>
                             <p className="card-text">
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                               Deployed through GitHub, this web app is a simple travel assistance guide. Developed to fetch data from third party APIs.
                             </p>
-                            <a href="#" className="btn btn-primary">
-                                Go somewhere
+                            <a href="" className="btn btn-primary">
+                            Deploy App
                             </a>
                         </div>
                     </div>
 
-                    <div className="card" style={{ width: '18rem' }}>
-                        <img src="..." className="card-img-top" alt="..." />
+                    <div className="card" style={{ width: '25rem' }}>
+                        <img src="./images/guess-my-draw.png" className="card-img-top" alt="Guess My Draw Online Game" />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <h5 className="card-title">Online Drawing Game</h5>
                             <p className="card-text">
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Deployed through Heroku, this web app uses Socket.io to broadcast a multi-player <i>Guess My Draw</i> game across the web. 
                             </p>
-                            <a href="#" className="btn btn-primary">
-                                Go somewhere
+                            <a href="https://guess-my-draw-47ce90c0ad48.herokuapp.com/login" className="btn btn-primary">
+                                Deploy App
                             </a>
                         </div>
                     </div>
 
-                    <div className="card" style={{ width: '18rem' }}>
-                        <img src="..." className="card-img-top" alt="..." />
+                    <div className="card" style={{ width: '25rem' }}>
+                        <img src="./images/weather-app.png" className="card-img-top" alt="Wetather Dashboard" />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <h5 className="card-title"> Weather Dashboard </h5>
                             <p className="card-text">
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Deployed through GitHub, this is a simple fetching API weather app used to gather weather infomation on a dashboard.
                             </p>
-                            <a href="#" className="btn btn-primary">
-                                Go somewhere
+                            <a href="https://aidev13.github.io/weather-dashboard/" className="btn btn-primary">
+                            Deploy App
                             </a>
                         </div>
                     </div>

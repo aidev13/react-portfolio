@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <>
-      <div className  ="homeBG">
+      <div className="homeBG">
         <div className="container">
           <div className="text-light m-5">
             <Header title='Welcome to Code Dave!' />
@@ -49,9 +49,9 @@ const Home = () => {
                 <pre className="m-auto snippetBorder">
                   <div className="card ">
                     <div className="card-body  snippetBG">
-                     <code className="text-info">
+                      <code className="text-info">
                         &lt;h1&gt;Hello World&lt;h1&gt;
-                     </code>
+                      </code>
                     </div>
                   </div>
                 </pre>
@@ -68,9 +68,9 @@ const Home = () => {
                 <pre className="m-auto snippetBorder">
                   <div className="card ">
                     <div className="card-body snippetBG">
-                     <code className="text-info">
-                     {cssCode}
-                     </code>
+                      <code className="text-info">
+                        {cssCode}
+                      </code>
                     </div>
                   </div>
                 </pre>
@@ -87,15 +87,22 @@ const Home = () => {
                 <pre className="m-auto snippetBorder">
                   <div className="card ">
                     <div className="card-body snippetBG">
-                     <code className="text-info">
-                     {jsCode}
-                     </code>
+                      <code className="text-info">
+                        {jsCode}
+                      </code>
                     </div>
                   </div>
                 </pre>
               </div>
             </div>
 
+            <div className="mt-5">
+              <div className="vstack text-center" id="contact">
+                <p>David Liebherr</p>
+                <p>Email: ambition.aidev@gmail.com</p>
+                <p>Phone: 262-409-3767</p>
+              </div>
+            </div>
 
           </div>
         </div>

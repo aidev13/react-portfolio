@@ -1,5 +1,5 @@
 
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link} from 'react-router-dom';
 import './nav.css'
 
 
@@ -24,8 +24,8 @@ const Nav = () => {
           <NavLink to="/" style={activeStyle}> Home </NavLink>
           <NavLink to="/about" style={activeStyle}> About Me </NavLink>
           <NavLink to="/portfolio" style={activeStyle}> Portfolio </NavLink>
-          <NavLink to="/contact" style={activeStyle}> Contact </NavLink>
-          <NavLink to="/resume" style={activeStyle}> Resume </NavLink>
+          <Link to="/#contact"> Contact </Link>
+          <NavLink to="https://www.linkedin.com/in/david-liebherr-489a1951"> Resume </NavLink>
         </div>
 
       </nav>
