@@ -5,6 +5,7 @@ import { useEffect } from "react"
 
 const Home = () => {
 
+  // this hook is used for allowing the contact link in the navbar to direct itself to the right place on the page //
   useEffect(() => {
     const hash = window.location.hash
     if (hash) {
@@ -12,7 +13,7 @@ const Home = () => {
       document.getElementById(id)?.scrollIntoView()
     }
   }, [])
-
+  
   const cssCode = '.css {\n color: red; \n}';
   const cssRed = {
     color: 'red'
@@ -20,6 +21,8 @@ const Home = () => {
   const jsCode = `const javaScript = () => {
     console.log("Hello World")
   }`
+
+
 
   return (
     <>
@@ -35,7 +38,7 @@ const Home = () => {
                 <div className="p-3 "> <h2 className="text-light fs-4">This website has been crafted with happieness to showcase the proficiencies I've learned and experienced during my <i>rigorous</i> EdX bootcamp experience. It will remain a dynamic, ongoing testament to my professional growth as I advance in my development career, consistently evolving to reflect my latest accomplishments and expertise.</h2></div>
               </div>
               <div className="col d-flex justify-content-center">
-                <img src="./profilePicture.jpg" alt="placeholder image" className="rounded-3 border border-2"/>
+                <img src="./profilePicture.jpg" alt="placeholder image" className="rounded-3 border border-2" id="profileImg"/>
               </div>
             </div>
           </div>

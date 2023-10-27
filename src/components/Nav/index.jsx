@@ -25,7 +25,7 @@ const Nav = () => {
 
 
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav pt-2 me-4 d-flex justify-content-end flex-row">
+            <div className="navbar-nav pt-2 ms-2 flex-row">
               <NavLink to="/" style={activeStyle}> Home </NavLink>
               <NavLink to="/about" style={activeStyle}> About Me </NavLink>
               <NavLink to="/portfolio" style={activeStyle}> Portfolio </NavLink>

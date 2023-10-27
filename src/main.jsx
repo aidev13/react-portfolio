@@ -11,8 +11,8 @@ import Resume from "./components/Page/Resume.jsx";
 
 import './custom-styles.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-
 import 'bootstrap/dist/js/bootstrap.min.js'
+
 
 
 const router = createBrowserRouter([

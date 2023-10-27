@@ -7,7 +7,7 @@
     background-blend-mode: overlay;
     background-size: calc();
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,9 +29,9 @@
     border-top: solid 3px rgb(116, 116, 116);
 }
 
-.viewPoint {
+/* .viewPoint {
     height: 75vh;
-}
+} */
 
 
 /* Code Box Code */
@@ -44,3 +44,15 @@
   background-color: rgb(41, 41, 41);
   border-radius: 12px;
 }
+
+  @media screen and (max-width: 992px) {
+    .cardCol {
+      /* background-color: red; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* margin-left: 100px; */
+    }
+  }
+

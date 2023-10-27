@@ -7,8 +7,8 @@ const About = () => {
                 <div className="hero">
                     <div class="container text-center font-monospace">
                         <div class="row">
-                            <div class="col d-flex align-items-center justify-content-end">
-                                <h1 className="me-4">About Me</h1>
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h1 className="">About Me</h1>
                             </div>
                             <div class="col">
                                 <img src="/beard.png" />

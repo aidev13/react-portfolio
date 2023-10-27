@@ -5,9 +5,10 @@ const Portfolio = () => {
     return (
         <>
             <Header title='Portfolio' />
-            <div className="viewPoint">
-                <div className="m-5 d-flex justify-content-center gap-5 ">
-                    <div className="card" style={{ width: '25rem' }}>
+            <div className="container">
+                <div className="m-5 d-flex justify-content-center gap-5 cardCol">
+                  
+                    <div className="card" >
                         <img src='./images/travel-assistance.png' className="card-img-top" alt="Personal Travel Assistance" />
                         <div className="card-body">
                             <h5 className="card-title">Travel Guide</h5>
@@ -20,7 +21,7 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <div className="card" style={{ width: '25rem' }}>
+                    <div className="card" >
                         <img src="./images/guess-my-draw.png" className="card-img-top" alt="Guess My Draw Online Game" />
                         <div className="card-body">
                             <h5 className="card-title">Online Drawing Game</h5>
@@ -33,14 +34,14 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <div className="card" style={{ width: '25rem' }}>
+                    <div className="card" >
                         <img src="./images/weather-app.png" className="card-img-top" alt="Wetather Dashboard" />
                         <div className="card-body">
                             <h5 className="card-title"> Weather Dashboard </h5>
                             <p className="card-text">
                                 Deployed through GitHub, this is a simple fetching API weather app used to gather weather infomation on a dashboard.
                             </p>
-                            <a href="https://aidev13.github.io/weather-dashboard/" className="btn btn-primary">
+                            <a href="https://aidev13.github.io/weather-dashboard/" className="btn btn-primary ">
                             Deploy App
                             </a>
                         </div>
