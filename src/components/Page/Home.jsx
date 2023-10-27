@@ -7,11 +7,9 @@ const Home = () => {
 
   useEffect(() => {
     const hash = window.location.hash
-    if(hash) {
+    if (hash) {
       const id = hash.slice(1)
       document.getElementById(id)?.scrollIntoView()
-console.log(document.getElementById(id))
-
     }
   }, [])
 
@@ -31,13 +29,13 @@ console.log(document.getElementById(id))
             <Header title='Welcome to Code Dave!' />
           </div>
 
-          <div className="container px-4 text-center">
+          <div className="container px-4 text-center d-flex">
             <div className="row gx-5">
-              <div className="col">
-                <div className="p-3"> <h2 className="text-light fs-4">This website has been crafted with happieness to showcase the proficiencies I've learned and experienced during my <i>rigorous</i> EdX bootcamp experience. It will remain a dynamic, ongoing testament to my professional growth as I advance in my development career, consistently evolving to reflect my latest accomplishments and expertise.</h2></div>
+              <div className="col d-flex align-items-center">
+                <div className="p-3 "> <h2 className="text-light fs-4">This website has been crafted with happieness to showcase the proficiencies I've learned and experienced during my <i>rigorous</i> EdX bootcamp experience. It will remain a dynamic, ongoing testament to my professional growth as I advance in my development career, consistently evolving to reflect my latest accomplishments and expertise.</h2></div>
               </div>
               <div className="col d-flex justify-content-center">
-                <img src="https://placehold.co/400x200" alt="placeholder image" />
+                <img src="./profilePicture.jpg" alt="placeholder image" className="rounded-3 border border-2"/>
               </div>
             </div>
           </div>
