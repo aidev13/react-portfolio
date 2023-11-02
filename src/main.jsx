@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import Home from "./components/Page/Home.jsx";
-import About from "./components/Page/About.jsx";
-import Portfolio from "./components/Page/Portfolio.jsx";
-import Contact from "./components/Page/Contact.jsx";
-import Resume from "./components/Page/Resume.jsx";
 
-import './custom-styles.css'
+import About from "./page/About.jsx";
+import Portfolio from "./page/Portfolio.jsx";
+import Contact from "./page/Contact.jsx";
+import Resume from "./page/Resume.jsx";
+
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
@@ -21,10 +21,6 @@ const router = createBrowserRouter([
     element: <App />,
     children: [{
       path: '/',
-      element: <Home />
-    },
-    {
-      path: 'about',
       element: <About />
     },
     {

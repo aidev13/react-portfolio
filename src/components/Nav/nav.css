@@ -1,49 +1,29 @@
-:root {
-    margin: 0;
-    --navColor: rgb(255, 217, 0);
-    --navBoxShadow: rgba(22, 24, 26, 0.288) 0px 15px 10px -10px;
-    --navUnderlineColor: rgb(116, 116, 116);
-    --navHoverColor: rgb(255, 0, 191);
+.bar {
+  display: flex;
+  font-size: 18px;
+  gap: 12px;
+  padding: 15px 0 15px 0;
+  justify-content: center;
+  font-family: monospace;
+  flex-wrap: wrap;
 }
 
-nav {
-    background-color: var(--navColor);
-    border-bottom: solid var(--navUnderlineColor) 3px;
+a {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  color: black;
 }
 
-nav:hover {
-    transition: 400ms;
-    box-shadow: var(--navBoxShadow);
+a:focus {
+  box-shadow: 2px 2px black;
 }
 
-
-nav a {
-    color: rgb(129, 129, 129);
-    text-decoration: none;
-    font-size: 20px;
-    margin-right: 13px;
+a:hover {
+box-shadow: 2px 2px black;
 }
 
-nav a:hover {
-    color:rgb(255, 255, 255)
-}
-
-
-
-#logo {
-    /* position: absolute; */
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    top: 12px;
-    left: 75px;
-}
-
-#logo:hover {
-transform: scale(1.2);
-transition: 400ms;
-}
-
-nav Link:active {
-    color: aliceblue;
+.line {
+  text-decoration: none;
 }

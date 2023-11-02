@@ -1,0 +1,23 @@
+.flexContain {
+  display: flex;
+  justify-content: center;
+}
+
+.borderR {
+  margin: 20px;
+  padding: 12px;
+  border-radius: 30px;
+}
+
+.borderR:hover {
+  box-shadow: 2px 2px black;
+}
+
+.accordContain {
+  margin: 45px;
+}
+
+.langTitle {
+  font-size: 22px;
+  text-align: center;
+}

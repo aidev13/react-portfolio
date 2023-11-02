@@ -1,0 +1,14 @@
+
+.title {
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.headerdiv {
+  margin: 25px;
+}
+ 

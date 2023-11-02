@@ -1,76 +1,30 @@
+import { NavLink } from 'react-router-dom';
 
-import { NavLink, Link } from 'react-router-dom';
-import './nav.css'
+import "./nav.css";
 
 const activeStyle = ({ isActive }) => ({
   color: isActive ? '#000' : 'rgb(116, 116, 116)',
 })
 
 
-// TODO: In later update, use bootstrap offcanvas navbar
+
+
 const Nav = () => {
   return (
     <>
-      <nav className="navbar gap-3 sticky-top">
-        <div className="container-fluid">
+      <nav  >
+        <div className="bar">
+        <NavLink to="/"  style={activeStyle} className="line"> About Me </NavLink>
+        <NavLink to="/portfolio" style={activeStyle} className="line"> Portfolio </NavLink>
+        <NavLink to="/contact" style={activeStyle} className="line"> Contact </NavLink>
+        <NavLink to="/resume" style={activeStyle} className="line"> Resume </NavLink>
+        <NavLink to="https://www.NavLinkedin.com/in/david-liebherr-489a1951" style={activeStyle} className="line"> LinkedIn </NavLink>
 
-          <button className="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div>
-            <Link to="/" className="navbar-brand" id="logo">
-              <img src="./ode.png" width="100px" alt="Code Dave Logo" />
-            </Link>
-          </div>
-
-
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav pt-2 ms-2 flex-row">
-              <NavLink to="/" style={activeStyle}> Home </NavLink>
-              <NavLink to="/about" style={activeStyle}> About Me </NavLink>
-              <NavLink to="/portfolio" style={activeStyle}> Portfolio </NavLink>
-              <Link to="/#contact"> Contact </Link>
-              <NavLink to="https://www.linkedin.com/in/david-liebherr-489a1951"> Resume </NavLink>
-            </div>
-          </div>
-          
         </div>
       </nav>
-
     </>
   )
 }
 
-
-
-
-
-
-// const Nav = () => {
-
-//   const activeStyle = ({ isActive }) => ({
-//     color: isActive ? '#000' : 'rgb(116, 116, 116)',
-//   })
-
-//   return (
-//     <>
-//       <nav>
-//         <div>
-//           <div id='navBox'></div>
-//           <img src='./ode.png' id="logo" />
-//         </div>
-
-//         <div>
-//           <NavLink to="/" style={activeStyle}> Home </NavLink>
-//           <NavLink to="/about" style={activeStyle}> About Me </NavLink>
-//           <NavLink to="/portfolio" style={activeStyle}> Portfolio </NavLink>
-//           <Link to="/#contact"> Contact </Link>
-//           <NavLink to="https://www.linkedin.com/in/david-liebherr-489a1951"> Resume </NavLink>
-//         </div>
-
-//       </nav>
-//     </>
-//   )
-// }
 
 export default Nav;
