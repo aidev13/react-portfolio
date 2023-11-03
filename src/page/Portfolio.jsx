@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <>
       <Header>//poRtfolio</Header>
-      <div className="d-flex">
+      <div className="d-flex flex-wrap gap-3">
       <PortfolioCard> JavaScript // a fun short quiz game</PortfolioCard>
       <PortfolioCard />
       <PortfolioCard />
