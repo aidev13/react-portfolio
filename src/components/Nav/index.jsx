@@ -14,6 +14,7 @@ const Nav = () => {
     <>
       <nav  >
         <div className="bar">
+        <img src="./ode.png" alt="Code Dave Logo" className='logo'/>
         <NavLink to="/"  style={activeStyle} className="line"> About Me </NavLink>
         <NavLink to="/portfolio" style={activeStyle} className="line"> Portfolio </NavLink>
         <NavLink to="/contact" style={activeStyle} className="line"> Contact </NavLink>

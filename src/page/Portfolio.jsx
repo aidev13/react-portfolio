@@ -1,11 +1,15 @@
 import Header from "../components/Header"
+import PortfolioCard from "../components/Cards/PortfolioCard"
+
 import "./page.css"
 
 
 const Portfolio = () => {
   return (
     <>
-        <Header>//portfolio</Header>
+      <Header>//poRtfolio</Header>
+      <PortfolioCard />
+
     </>
   )
 }

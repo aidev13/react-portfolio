@@ -21,3 +21,24 @@
   font-size: 22px;
   text-align: center;
 }
+
+.gridContainer {
+  background-color: rgb(253, 253, 253);
+  display: flex;
+  margin: 10px 35px 0px 35px;
+  gap: 12px;
+  padding: 9px;
+  border-radius: 18px;
+}
+
+.gridContainer:hover {
+  box-shadow: 1px 5px rgb(0, 0, 0);
+}
+
+.gridChild {
+ text-align: center;
+}
+
+h2 {
+  
+}

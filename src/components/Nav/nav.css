@@ -6,6 +6,7 @@
   justify-content: center;
   font-family: monospace;
   flex-wrap: wrap;
+  
 }
 
 a {
@@ -26,4 +27,13 @@ box-shadow: 2px 2px black;
 
 .line {
   text-decoration: none;
+}
+
+.logo {
+  width: 75px;
+  transition: transform 0.5s;
+}
+
+.logo:hover {
+  transform: rotateY(180deg);
 }
