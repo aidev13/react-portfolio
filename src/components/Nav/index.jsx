@@ -14,12 +14,17 @@ const Nav = () => {
     <>
       <nav  >
         <div className="bar">
-        <img src="./ode.png" alt="Code Dave Logo" className='logo'/>
-        <NavLink to="/"  style={activeStyle} className="line"> About Me </NavLink>
-        <NavLink to="/portfolio" style={activeStyle} className="line"> Portfolio </NavLink>
-        <NavLink to="/contact" style={activeStyle} className="line"> Contact </NavLink>
-        <NavLink to="/resume" style={activeStyle} className="line"> Resume </NavLink>
-        <NavLink to="https://www.Linkedin.com/in/david-liebherr-489a1951" style={activeStyle} className="line"> LinkedIn </NavLink>
+          <img src="./ode.png" alt="Code Dave Logo" className='logo' />
+
+          <NavLink to="/" style={activeStyle} className="line link_style"> About Me </NavLink>
+
+          <NavLink to="/portfolio" style={activeStyle} className="line link_style"> Portfolio </NavLink>
+
+          <NavLink to="/contact" style={activeStyle} className="line link_style"> Contact </NavLink>
+
+          <NavLink to="/resume" style={activeStyle} className="line link_style"> Resume </NavLink>
+
+          <NavLink to="https://www.Linkedin.com/in/david-liebherr-489a1951" style={activeStyle} className="line link_style"> LinkedIn </NavLink>
 
         </div>
       </nav>

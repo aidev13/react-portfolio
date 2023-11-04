@@ -23,8 +23,13 @@ const PortfolioCard = (props) => {
           <div className="card-body">
             <p className="card-text">{props.children}</p>
             <div className="d-flex justify-content-end">
-              <a href={props.deploy_link} style={btnStyle}>Deploy</a>
-              <a href={props.repo_link} style={btnStyle}>src Code</a>
+              <a href={props.deploy_link} 
+              style={btnStyle}
+              className="link_style" >Deploy</a>
+
+              <a href={props.repo_link} 
+              style={btnStyle}
+              className="link_style" >src Code</a>
             </div>
           </div>
       </div>

@@ -9,7 +9,7 @@
   
 }
 
-a {
+.link_style {
   text-decoration: none;
   border: 1px solid black;
   border-radius: 5px;
@@ -17,11 +17,11 @@ a {
   color: black;
 }
 
-a:focus {
+.link_style:focus {
   box-shadow: 2px 2px black;
 }
 
-a:hover {
+.link_style:hover {
 box-shadow: 2px 2px black;
 }
 
