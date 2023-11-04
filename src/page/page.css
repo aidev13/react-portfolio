@@ -1,44 +1,43 @@
+/* About styles */
 .flexContain {
   display: flex;
   justify-content: center;
 }
 
-.borderR {
-  margin: 20px;
-  padding: 12px;
-  border-radius: 30px;
-}
-
-.borderR:hover {
-  box-shadow: 2px 2px black;
-}
-
-.accordContain {
-  margin: 45px;
-}
-
-.langTitle {
-  font-size: 22px;
-  text-align: center;
-}
-
-.gridContainer {
-  background-color: rgb(253, 253, 253);
+.aboutContainer {
+  background-color: rgb(250, 250, 250);
   display: flex;
   margin: 10px 35px 0px 35px;
   gap: 12px;
   padding: 9px;
-  border-radius: 18px;
+  border-radius: 8px;
 }
 
-.gridContainer:hover {
-  box-shadow: 1px 5px rgb(0, 0, 0);
+.profile_pic_borderR {
+  margin: 20px;
+  border-radius: 17px;
 }
 
-.gridChild {
- text-align: center;
+/* Portfolio page Grid Styles */
+
+.grid_col {
+  display: grid;
+  gap: 2rem;
+margin-bottom: 2em;
 }
 
-h2 {
-  
+@media (min-width: 45em) {
+  .grid_col {
+    grid-template-columns: repeat(2, 1fr) ;
+  }
+}
+
+@media (min-width: 80em) {
+  .grid_col {
+    grid-template-columns: repeat(4, 1fr) ;
+  }
+}
+
+.card:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }

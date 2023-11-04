@@ -1,21 +1,15 @@
 import Typewriter from 'typewriter-effect'
 
-
-
-import '../page/page.css'
-
+const langTitle = {
+  fontSize: "22px",
+  textAlign: "center"
+}
 
 const Accordion = () => {
 
-  let htmlTWE = new Typewriter('#typewriter', {
-    strings: ['Hello', 'World'],
-    autoStart: true,
-  });
-
   return (
-
     <>
-      <h3 className='langTitle'>
+      <h3 style={langTitle}>
         <Typewriter
           options={{
             strings: ['Languages', 'HTML / CSS / JS and more', '//'],
@@ -24,7 +18,7 @@ const Accordion = () => {
           }}
         />
       </h3>
-      <div className="accordContain">
+      <div style={{margin: "45px"}}>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header">

@@ -4,11 +4,16 @@
   font-family: monospace;
   display: flex;
   justify-content: center;
-  
-
 }
 
 .headerdiv {
   margin: 25px;
+  padding: 2em;
 }
  
+@media (max-width: 45em) {
+  .headerdiv {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
