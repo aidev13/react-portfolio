@@ -1,6 +1,7 @@
 import Typewriter from 'typewriter-effect'
 
 import Header from "../components/Header"
+import ProficiencyCard from '../components/Cards/proficiencyCard'
 import "./page.css"
 
 const langTitle = {
@@ -35,11 +36,12 @@ const About = () => {
               <p>In my journey through this program, I have discovered a profound affinity for front-end development. The art of crafting designs through code has become my passion, and I take immense pride in my work. Full-stack development provided me with a holistic perspective on the field, enabling me to discern where my true calling lies. While I appreciate every facet of the discipline, it is in front-end development that I intend to channel my primary focus.</p>
               <p>Beyond the realm of coding, my heart brims with a deep-seated love for activities such as hunting and fishing. I revel in the satisfaction of working with my hands, whether it involves repairing vehicles with my modest toolbox or pursuing my passion for Brewers baseball and Packers football. But above all, my greatest source of joy is my cherished family, which includes my beloved wife, Stacey, and our precious children, Lacey and Cody. They are the radiant stars that illuminate the canvas of my life.
               </p>
-              <h3>This is for them.</h3>
             </div>
+              <h3 className='grid_span_bottom'>This is for them.</h3>
         </div>
 
       </main>
+     
     </>
   )
 }

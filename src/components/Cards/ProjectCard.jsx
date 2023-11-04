@@ -1,6 +1,6 @@
 
 
-const PortfolioCard = (props) => {
+const ProjectCard = (props) => {
 
   const cardSize = {
     width:"18rem"
@@ -37,4 +37,4 @@ const PortfolioCard = (props) => {
   )
 }
 
-export default PortfolioCard;
+export default ProjectCard;

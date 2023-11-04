@@ -1,0 +1,38 @@
+/* proficiency card css */
+
+.proficency_card_grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  gap: 1em;
+  padding: 2em;
+}
+
+.proficency_card_bg {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 5em;
+}
+
+@media (max-width: 63.25em) {
+  .proficency_card_grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .proficency_card_bg{
+    margin: 3.5em;
+  }
+}
+
+@media (max-width: 45em) {
+  .proficency_card_grid {
+    grid-template-columns: repeat(3, 1fr);
+   padding: .8em;
+  }
+
+  .proficency_card_bg{
+    margin: 2em;
+  }
+}
