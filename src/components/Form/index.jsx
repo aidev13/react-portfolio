@@ -7,7 +7,7 @@ const Form = () => {
 
   function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm('delta13dek_0815', 'delta13dek_0815', e.target, 'jmcNY-LnhjMbCkH5N')
+    emailjs.sendForm('delta13dek_0815', 'template_zojv0up', e.target, 'jmcNY-LnhjMbCkH5N')
     .then(function(response) {
       console.log('SUCCESS!', response.status, response.text);
    }, function(error) {
