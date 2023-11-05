@@ -11,7 +11,7 @@ const Contact = () => {
         <Header>//coNtact</Header>
         <div className='wrapper'>
           <div className='contact_header'>
-            <img src="./snow-mountains.png" className='background' />
+            <span className='background'></span>
             <img src="./ode.png" className='foreground' />
             <div className='contact_title'>
               <h2 className='mx-3'> //inFormation </h2>
