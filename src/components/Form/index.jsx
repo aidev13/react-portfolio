@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 
@@ -6,52 +6,76 @@ import emailjs from '@emailjs/browser';
 // styles all form bootstrap for fun
 const Form = () => {
 
-  const form = useRef();
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
-  const sendEmail = (e) => {
+
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('delta13dek_0815', 'template_zojv0up', form.current, 'jmcNY-LnhjMbCkH5N')
+    const serviceId = 'delta13dek_0815'
+    const templateId = 'template_lxsybpx'
+    const publicKey = 'jmcNY-LnhjMbCkH5N'
+    const templateParams = {
+      from_name: name,
+      reply_to: email,
+      message: message
+    }
+
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
       .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+        console.log(result.text);
+        setName('');
+        setEmail('');
+        setMessage('');
+
+      }), (error) => {
+        console.log(error.text);
+      };
   };
 
-  // function sendEmail(e) {
-  //   e.preventDefault();
-  //   emailjs.sendForm('delta13dek_0815', 'template_zojv0up', e.target, 'jmcNY-LnhjMbCkH5N')
-  //   .then(function(response) {
-  //     console.log('SUCCESS!', response.status, response.text);
-  //  }, function(error) {
-  //     console.log('FAILED...', error);
-  //  });
-  // }
 
   return (
     <>
-     <div className="container-lg border border-black rounded-3 p-3">
-      <h2 className="text-center mb-4">// gEt in toUch</h2>
-      <form className="row" ref={form} onSubmit={sendEmail}>
-        <label className="bold">// nAme
-        <input type="text" name="name_input" className="form-control mb-4"/>
-        </label>
-        
+      <div className="container-lg border border-black rounded-3 p-3">
+        <h2 className="text-center mb-4">// gEt in toUch</h2>
 
-        <label>// emAil
-        <input type="email" name="email_input" className="form-control mb-4"/>
-        </label>
-        
+        <form className="row" onSubmit={handleSubmit}>
+          <label className="bold">// nAme
+            <input
+              type="text"
+              value={name}
+              className="form-control mb-4"
+              onChange={(e) => setName(e.target.value)} />
+          </label>
 
-        <label>// mEssage
-        <textarea name="message_input" rows='5' className="form-control mb-4"/>
-        <input type="submit" value='send' className="ms-2 btn btn-outline-dark px-5"/>
-        </label>
-        
 
-      </form>
-     </div>
+          <label>// emAil
+            <input
+              type="email"
+              value={email}
+              className="form-control mb-4"
+              onChange={(e) => setEmail(e.target.value)} />
+          </label>
+
+
+          <label>// mEssage
+            <textarea
+              name="message_input"
+              value={message}
+              rows='5'
+              className="form-control mb-4"
+              onChange={(e) => setMessage(e.target.value)} />
+            <input
+              type="submit"
+              value='Submit'
+              className="ms-2 btn btn-outline-dark px-5" />
+          </label>
+
+
+        </form>
+      </div>
     </>
   )
 }
