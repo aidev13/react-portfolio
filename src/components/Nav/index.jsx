@@ -24,7 +24,7 @@ const Nav = () => {
 
           <NavLink to="/resume" style={activeStyle} className="line link_style"> Resume </NavLink>
 
-          <NavLink to="https://www.Linkedin.com/in/david-liebherr-489a1951" style={activeStyle} className="line link_style"> LinkedIn </NavLink>
+          <NavLink to="https://www.Linkedin.com/in/david-liebherr-489a1951" style={activeStyle} className="line link_style" target="_blank"> LinkedIn </NavLink>
 
         </div>
       </nav>
