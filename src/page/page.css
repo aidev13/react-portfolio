@@ -100,9 +100,9 @@
 }
 
 .wrapper {
-  height: 100vh;
-  overflow-y: auto;
+  height: 110vh;
   overflow-x: hidden;
+  overflow-y: auto;
   perspective: 10px;
 }
 
@@ -141,8 +141,8 @@ transform: translateZ(-10px) scale(2);
 }
 
 .contact_title {
- font-size: 7rem;
- color: orange;
+ font-size: 3rem;
+ color: rgb(255, 255, 255);
  text-shadow: 0px 1px 16px rgba(0,0,0,0.32);
 }
 
