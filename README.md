@@ -32,6 +32,10 @@ GitHub Repo Link: https://github.com/aidev13/react-portfolio &nbsp; [![GitHub](h
 ---
 ### Miscellaneous
 
+#### Required course screenshot:
+![Portfolio Version 0.1 ScreenShot](./public/screenshot.png)
+TODO: remove after grading
+
 #### React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
