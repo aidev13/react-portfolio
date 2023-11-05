@@ -1,3 +1,4 @@
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 
@@ -5,21 +6,34 @@ import emailjs from '@emailjs/browser';
 // styles all form bootstrap for fun
 const Form = () => {
 
-  function sendEmail(e) {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('delta13dek_0815', 'template_zojv0up', e.target, 'jmcNY-LnhjMbCkH5N')
-    .then(function(response) {
-      console.log('SUCCESS!', response.status, response.text);
-   }, function(error) {
-      console.log('FAILED...', error);
-   });
-  }
+
+    emailjs.sendForm('delta13dek_0815', 'template_zojv0up', form.current, 'jmcNY-LnhjMbCkH5N')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  // function sendEmail(e) {
+  //   e.preventDefault();
+  //   emailjs.sendForm('delta13dek_0815', 'template_zojv0up', e.target, 'jmcNY-LnhjMbCkH5N')
+  //   .then(function(response) {
+  //     console.log('SUCCESS!', response.status, response.text);
+  //  }, function(error) {
+  //     console.log('FAILED...', error);
+  //  });
+  // }
 
   return (
     <>
      <div className="container-lg border border-black rounded-3 p-3">
       <h2 className="text-center mb-4">// gEt in toUch</h2>
-      <form className="row" onSubmit={sendEmail}>
+      <form className="row" ref={form} onSubmit={sendEmail}>
         <label className="bold">// nAme
         <input type="text" name="name_input" className="form-control mb-4"/>
         </label>
