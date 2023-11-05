@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import Form from '../components/Form'
 
 
 
@@ -25,6 +26,10 @@ const Contact = () => {
               </section>
             </div>
           </div>
+        </div>
+
+        <div>
+          <Form />
         </div>
 
 
