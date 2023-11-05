@@ -152,6 +152,10 @@ transform: translateZ(-10px) scale(2);
     width: 300px;
   }
 
+  .background {
+    height: 75%;
+  }
+
   .contact_title {
     font-size: 18px;
   }
