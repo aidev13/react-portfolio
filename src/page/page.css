@@ -100,7 +100,7 @@
 }
 
 .wrapper {
-  height: 110vh;
+  height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 10px;
@@ -123,7 +123,7 @@ transform: translateZ(-10px) scale(2);
 
 .foreground {
   transform: translateZ(-5px) scale(1.5);
-  opacity: .2;
+  opacity: .1;
 }
 
 .background {
@@ -142,8 +142,8 @@ transform: translateZ(-10px) scale(2);
 
 .contact_title {
  font-size: 3rem;
- color: rgb(255, 255, 255);
- text-shadow: 0px 1px 16px rgba(0,0,0,0.32);
+ color: rgb(0, 0, 0);
+ text-shadow: 0px 0px 8px rgba(156, 156, 156, 0.452);
 }
 
 
@@ -153,7 +153,11 @@ transform: translateZ(-10px) scale(2);
   }
 
   .contact_title {
-    font-size: 40px;
+    font-size: 18px;
+  }
+
+  .wrapper {
+    height: 50vh;
   }
   
 }
