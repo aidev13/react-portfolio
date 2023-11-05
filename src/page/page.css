@@ -9,8 +9,7 @@
 }
 
 .profile_pic_borderR {
-  margin-bottom: 20px;
-  padding: 0 10px 0 10px;
+  margin-bottom: 10px;
   border-radius: 3em;
 }
 
@@ -32,6 +31,9 @@
   align-items: center;
 }
 
+.about_content{
+  font-size: 1.3em;
+}
 
 
 @media (max-width: 71.625em) {
@@ -170,4 +172,8 @@
 
 .open {
   height: 100px;
+}
+
+.videobg {
+  bac
 }
