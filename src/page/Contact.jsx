@@ -1,15 +1,14 @@
 import Header from '../components/Header'
 import Form from '../components/Form'
-
-
+import './page.css'
 
 const Contact = () => {
-
 
   return (
     <>
       <main className='contact_body'>
-        <Header>//coNtact</Header>
+        <Header className="title_span"  >//coNtact</Header>
+
         <div className='wrapper'>
           <div className='contact_header'>
             <span className='background'></span>
@@ -29,9 +28,14 @@ const Contact = () => {
         </div>
 
         <div>
+          <h6 className='text-center'>
+            // This is a working form! //
+          </h6>
           <Form />
         </div>
 
+        <div className='open'>
+        </div>
 
       </main>
     </>

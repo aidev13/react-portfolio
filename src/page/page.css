@@ -1,4 +1,6 @@
-::-webkit-scrollbar {display:none;}
+::-webkit-scrollbar {
+  display: none;
+}
 
 /* About Page styles */
 .image_flex {
@@ -33,43 +35,43 @@
 
 
 @media (max-width: 71.625em) {
- .about_grid_container {
-  grid-template-rows: .1fr 1fr .1fr;
-  margin: 2em 2em 3em 2em;
- }
+  .about_grid_container {
+    grid-template-rows: .1fr 1fr .1fr;
+    margin: 2em 2em 3em 2em;
+  }
 
- .about_content {
-  grid-column: span 2;
- }
+  .about_content {
+    grid-column: span 2;
+  }
 
- .grid_span_bottom {
-  grid-row-start: 3;
- }
+  .grid_span_bottom {
+    grid-row-start: 3;
+  }
 
- .about_title {
-  text-align: center;
-  margin-bottom: .5em;
-  grid-row-start: 1;
-  grid-column: span 2;
- }
- }
-
- @media (max-width: 45em) {
-.about_grid_container {
-  margin: 2em .75em 2em .75em;
+  .about_title {
+    text-align: center;
+    margin-bottom: .5em;
+    grid-row-start: 1;
+    grid-column: span 2;
+  }
 }
+
+@media (max-width: 45em) {
+  .about_grid_container {
+    margin: 2em .75em 2em .75em;
+  }
 
   .about_content {
     font-size: 14px;
- }
+  }
 
- .grid_span_bottom {
-  grid-template-rows: .10fr 1fr .8fr;
- }
+  .grid_span_bottom {
+    grid-template-rows: .10fr 1fr .8fr;
+  }
 }
 
 
-      /* Portfolio page Grid Styles */
+/* Portfolio page Grid Styles */
 
 .grid_col {
   display: grid;
@@ -80,6 +82,7 @@
 .card:hover {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
 @media (min-width: 45em) {
   .grid_col {
     grid-template-columns: repeat(2, 1fr);
@@ -93,32 +96,31 @@
 }
 
 
-     /* contact page styles */
+/* contact page styles */
 
 .contact_body {
   margin: 0;
 }
 
 .wrapper {
-  height: 100vh;
+  height: 50vh;
   overflow-x: hidden;
   overflow-y: auto;
-  perspective: 10px;
+  perspective: 5px;
 }
-
 
 .contact_header {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 115%;
   transform-style: preserve-3d;
   z-index: -1;
 }
 
 .background {
-transform: translateZ(-10px) scale(2);
+  transform: translateZ(-10px) scale(2);
 }
 
 .foreground {
@@ -128,9 +130,9 @@ transform: translateZ(-10px) scale(2);
 
 .background {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+  height: 75%;
+  width: 70%;
+  /* object-fit: cover; */
   z-index: -1;
 }
 
@@ -141,9 +143,9 @@ transform: translateZ(-10px) scale(2);
 }
 
 .contact_title {
- font-size: 2.5rem;
- color: rgb(0, 0, 0);
- text-shadow: 0px 0px 8px rgba(156, 156, 156, 0.452);
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 8px rgba(156, 156, 156, 0.452);
 }
 
 
@@ -163,5 +165,9 @@ transform: translateZ(-10px) scale(2);
   .wrapper {
     height: 50vh;
   }
-  
+
+}
+
+.open {
+  height: 100px;
 }
