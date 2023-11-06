@@ -11,7 +11,7 @@ const About = () => {
       <Header>// david liebherr</Header>
       <main>
         <div className="image_flex">
-          <img src="/dave.jpg" className="img-fluid profile_pic_borderR" alt="Profile picture of owner, David Liebherr" />
+          <img src="/dave.jpg" className="img-fluid profile_pic_borderR p-2" alt="Profile picture of owner, David Liebherr" />
         </div>
         <div  className="text-center">
           <tt>full-stack developer | husband | father | ready</tt>
