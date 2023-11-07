@@ -9,7 +9,7 @@ const Resume = () => {
 
         
         <div className="text-center div_placement">
-          <tt className="tt_bg">click the link <a href='https://profile.indeed.com/p/davidl-f9lyjfh' className='line link_style' target='_blank' >// reSume</a> to view and download my full resume from indeed</tt>
+          <tt className="tt_bg">click the button ➡️ <a href='https://profile.indeed.com/p/davidl-f9lyjfh' className='line link_style' target='_blank' >// reSume</a> to view and download my full resume from indeed</tt>
         </div>
 
         </div>
