@@ -50,7 +50,7 @@ const About = () => {
                   <p>Also, as of {month}/{day}/{year} I am still looking for a job!</p>
                </div>
                <div id='cert'>
-                  <img src="public/images/uwwbc-edx-cert.png" id='certpic' />
+                  <img src="/uwwbc-edx-cert.png" id='certpic' />
                </div>
                <p id="progession">
                   I am currently as of today ({month}/{day}/{year}) studying with <b>Traversy Media</b> to get a fun, but awesome cert on advanced Javascript.
