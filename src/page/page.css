@@ -73,6 +73,34 @@
 }
 
 
+/* #learning_section{
+   background-image: url(../../public/cant-fix-stupid.jpg);
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-position: center;
+   opacity: 0.2;
+} */
+
+#progession { 
+      text-align: center;
+      background: rgba(255, 255, 255, 0.5); /* Adjust the last value (0.5) to change the background opacity */
+ margin: 2rem;
+  text-align: center;
+   
+}
+
+#cert {
+   display: flex;
+   justify-content: center;
+}
+
+#certpic {
+   width: 500px;
+  height: auto;
+}
+
+
+
 /* Portfolio page Grid Styles */
 
 .grid_col {
@@ -191,6 +219,5 @@
       background-color: rgba(240, 255, 255, 0.295);
       padding: 5px;
      }
-
 
    
