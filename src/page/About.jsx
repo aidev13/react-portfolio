@@ -1,8 +1,6 @@
 import Typewriter from 'typewriter-effect'
 import Header from "../components/Header"
 import uwcert from '/uwwbc-edx-cert.png'
-
-
 import "./page.css"
 
 let today = new Date();
@@ -52,6 +50,10 @@ const About = () => {
                </div>
                <div id='cert'>
                   <img src={uwcert} id='certpic' />
+
+               </div>
+               <div className="text-center">
+                  <tt className="sm-text">My bad ass EdX certification accredited and endorsed by the prestigious UW-Wisconsin System. This basically means I qualify for senior level positions, although I will glading take any position at the moment.</tt>
                </div>
                <p id="progession">
                   I am currently as of today ({month}/{day}/{year}) studying with <b>Traversy Media</b> to get a fun, but awesome cert on advanced Javascript.
