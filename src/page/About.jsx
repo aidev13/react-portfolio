@@ -1,12 +1,13 @@
 import Typewriter from 'typewriter-effect'
 import Header from "../components/Header"
+import uwcert from '/uwwbc-edx-cert.png'
 
 
 import "./page.css"
 
 let today = new Date();
 let month = today.getMonth() + 1;
-let day = today.getDay();
+let day = today.getDate();
 let year = today.getFullYear();
 
 const About = () => {
@@ -50,7 +51,7 @@ const About = () => {
                   <p>Also, as of {month}/{day}/{year} I am still looking for a job!</p>
                </div>
                <div id='cert'>
-                  <img src="/uwwbc-edx-cert.png" id='certpic' />
+                  <img src={uwcert} id='certpic' />
                </div>
                <p id="progession">
                   I am currently as of today ({month}/{day}/{year}) studying with <b>Traversy Media</b> to get a fun, but awesome cert on advanced Javascript.
