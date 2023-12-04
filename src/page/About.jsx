@@ -43,10 +43,8 @@ const About = () => {
 
             <div id="learning_section">
                <div id='progession'>
-                  <h2>My learning progesssion</h2>
+                  <h2>My learning progress</h2>
                   <p>As a developer, I want to keep my brain cells sharp. This means learning, re-learning and keeping up with updates as best I can.</p>
-                  <p>Below is my past and current accomplisghments. As I grow as a dev, (Gosh I love that I can call myself that) and learn new things I will apply those experiencees on my website here. My site will appear broken sometimes, and you will find typos, some bad CSS and IDK, easter eggs along the way, for I am learning!</p>
-                  <p>Also, as of {month}/{day}/{year} I am still looking for a job!</p>
                </div>
                <div id='cert'>
                   <img src={uwcert} id='certpic' />
