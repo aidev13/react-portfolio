@@ -20,7 +20,7 @@ const Footer = () => {
             </svg></Link>
 
             <div  >
-          <p>Code Dave by David Liebherr &copy; {new Date().getFullYear()}</p>
+          <p><i>Code Dave by David Liebherr</i> &copy; {new Date().getFullYear()}</p>
         </div>
 
         </footer>
